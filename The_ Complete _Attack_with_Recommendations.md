@@ -29,7 +29,7 @@ To execute this attack, I checked the IP and MAC addresses of the Kali Linux VM,
 <img width="850" height="542" alt="image" src="https://github.com/user-attachments/assets/f5512ff8-d4f0-4edb-8745-b06d888580f7" />
 
 
--I checked the ARP cache on the Windows 10 VM both before and after initiating ARP poisoning, to confirm that the attack was successful.
+-I checked the ARP cache on the Windows 10 VM both before and after initiating ARP poisoning to confirm that the attack was successful.
 
 
 ### Windows 10 ARP Cache After ARP Spoofing:
@@ -61,7 +61,7 @@ To execute this attack, I checked the IP and MAC addresses of the Kali Linux VM,
 <img width="520" height="166" alt="Ilustration 1" src="https://github.com/user-attachments/assets/0fad0a7b-dac4-40f8-bd12-bc97efa7a4be" />
      
 
-### When using https:   
+#### When using https:   
 
 <img width="530" height="125" alt="Illustration 2" src="https://github.com/user-attachments/assets/725ef677-b59f-48f5-bcda-cd0e6df6ed64" />
 
@@ -69,14 +69,14 @@ To execute this attack, I checked the IP and MAC addresses of the Kali Linux VM,
 2. Using a VPN:
 -When using a VPN, the traffic is sent through an encrypted tunnel between the user's device and the VPN server.
 
-Illustrations:
+### Illustrations:
 
-### When using http without VNP:
+#### When using http without VNP:
 
 <img width="501" height="140" alt="Illustration 3" src="https://github.com/user-attachments/assets/25b7aaa6-f841-4422-a874-5c1690dd0c76" />
 
 
-### When using a VPN:
+#### When using a VPN:
 
 <img width="530" height="191" alt="Illustration 4" src="https://github.com/user-attachments/assets/46a5d27f-ebd0-4aa9-a91d-904067bd5249" />
 
