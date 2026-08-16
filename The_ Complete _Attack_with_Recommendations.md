@@ -50,44 +50,35 @@ To execute this attack, I checked the IP and MAC addresses of the Kali Linux VM,
 
  
 ## Recommendations:
+
 1. Using HTTPS:
 -Using HTTPS encrypts the traffic, so that even if it gets intercepted, the attacker/s won’t be able to interpret the data.
+
 Illustrations:
 
 ### When using http:
-User (Victim)     http request (Plain text)        Attacker     Forwarded http request   Router    
 
-
-                                         Attacker sees captured packets in plain text.
-                
-
-
-
+<img width="520" height="166" alt="Ilustration 1" src="https://github.com/user-attachments/assets/0fad0a7b-dac4-40f8-bd12-bc97efa7a4be" />
+     
 
 ### When using https:   
-    User (Victim)    https request (Encrypted)       Attacker     Forwarded https request   Router    
 
+<img width="530" height="125" alt="Illustration 2" src="https://github.com/user-attachments/assets/725ef677-b59f-48f5-bcda-cd0e6df6ed64" />
 
-                                         Attacker sees captured packets, but the data is encrypted.
-
-2. Using a VPN: 
+   
+2. Using a VPN:
 -When using a VPN, the traffic is sent through an encrypted tunnel between the user's device and the VPN server.
+
 Illustrations:
+
 ### When using http without VNP:
-User (Victim)     http request (Plain text)       Attacker     Forwarded http request   Router    
 
-
-                                         Attacker sees captured packets in plain text.
+<img width="501" height="140" alt="Illustration 3" src="https://github.com/user-attachments/assets/25b7aaa6-f841-4422-a874-5c1690dd0c76" />
 
 
 ### When using a VPN:
-User (Victim)     Encrypted VPN traffic        Attacker    Encrypted VPN traffic      Router    
 
-	
-       Attacker does not see plain text data, even when using http.
+<img width="530" height="191" alt="Illustration 4" src="https://github.com/user-attachments/assets/46a5d27f-ebd0-4aa9-a91d-904067bd5249" />
 
 
-                                                                                                                                       VPN Server 
-                                                                                                                                       
-                                                                                                                                       
 -It’s best to use https even when using a VPN, because the VPN server decrypts the tunnel and if attackers gain unauthorized access to the server, the data can be seen in plain text.                       
