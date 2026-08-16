@@ -54,9 +54,9 @@ To execute this attack, I checked the IP and MAC addresses of the Kali Linux VM,
 1. Using HTTPS:
 -Using HTTPS encrypts the traffic, so that even if it gets intercepted, the attacker/s won’t be able to interpret the data.
 
-Illustrations:
+### Illustrations:
 
-### When using http:
+#### When using http:
 
 <img width="520" height="166" alt="Ilustration 1" src="https://github.com/user-attachments/assets/0fad0a7b-dac4-40f8-bd12-bc97efa7a4be" />
      
