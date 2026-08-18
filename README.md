@@ -2,7 +2,8 @@
 
 I simulated a man-in-the-middle attack and captured plaintext credentials sent via a login page.
 
-<img width="512" height="512" alt="2553881db630bf8e3aa7cad299c97cee" src="https://github.com/user-attachments/assets/12ef754f-7cec-4cc0-a437-e83b0eb40a61" />
+<img width="2720" height="1360" alt="mitm_attack_diagram" src="https://github.com/user-attachments/assets/b913817f-2567-46d6-8597-27b1e6bcf074" />
+
 
 
 
