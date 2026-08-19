@@ -31,6 +31,7 @@ Before executing this attack, I checked the IP and MAC addresses of the Kali Lin
 <img width="850" height="542" alt="image" src="https://github.com/user-attachments/assets/f5512ff8-d4f0-4edb-8745-b06d888580f7" />
 
 
+
 -I checked the ARP cache on the Windows 10 VM both before and after initiating ARP poisoning to confirm that the attack was successful.
 
 
