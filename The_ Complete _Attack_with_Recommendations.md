@@ -1,11 +1,13 @@
   # Man-in-the-middle (MITM) Attack Simulation Using Ettercap:
   
-The purpose of this project was to simulate a man-in-the-middle attack using the Ettercap tool; in order to demonstrate packet sniffing and show the consequences of using protocols that allow for unencrypted communication such as http.
-Tools Used:
+The purpose of this project was to simulate a man-in-the-middle attack using the Ettercap tool; in order to demonstrate packet sniffing and show the consequences of using protocols that enable unencrypted communication, such as HTTP.
+
+### Tools Used:
 1.	Kali Linux.
 2.	Windows 10 VM.
 3.	Ettercap.
-To execute this attack, I checked the IP and MAC addresses of the Kali Linux VM, the Windows 10 VM, as well as the router.
+   
+Before executing this attack, I checked the IP and MAC addresses of the Kali Linux VM, the Windows 10 VM, as well as the router.
 
 ### Kali Linux IP and MAC address info:
  
@@ -36,9 +38,10 @@ To execute this attack, I checked the IP and MAC addresses of the Kali Linux VM,
 
 <img width="975" height="479" alt="image" src="https://github.com/user-attachments/assets/e160a6d0-1c5b-4891-bb52-5646f5ca3e17" />
 
+The ARP Cache showed that the Kali Linux VM's MAC Address was now the router's MAC address, indicating that the attack was successful.
  
 ### HTTP Login Page:
--I entered the username and password on the http test login page.
+-I entered the username and password on the HTTP test login page.
 
 <img width="948" height="502" alt="image" src="https://github.com/user-attachments/assets/f1fa11ec-ea22-446f-b691-53de67389ad0" />
 
@@ -56,12 +59,12 @@ To execute this attack, I checked the IP and MAC addresses of the Kali Linux VM,
 
 ### Illustrations:
 
-#### When using http:
+#### When using HTTP:
 
 <img width="520" height="166" alt="Ilustration 1" src="https://github.com/user-attachments/assets/0fad0a7b-dac4-40f8-bd12-bc97efa7a4be" />
      
 
-#### When using https:   
+#### When using HTTPS:   
 
 <img width="530" height="125" alt="Illustration 2" src="https://github.com/user-attachments/assets/725ef677-b59f-48f5-bcda-cd0e6df6ed64" />
 
@@ -71,7 +74,7 @@ To execute this attack, I checked the IP and MAC addresses of the Kali Linux VM,
 
 ### Illustrations:
 
-#### When using http without VNP:
+#### When using HTTP without VNP:
 
 <img width="501" height="140" alt="Illustration 3" src="https://github.com/user-attachments/assets/25b7aaa6-f841-4422-a874-5c1690dd0c76" />
 
@@ -81,4 +84,7 @@ To execute this attack, I checked the IP and MAC addresses of the Kali Linux VM,
 <img width="530" height="191" alt="Illustration 4" src="https://github.com/user-attachments/assets/46a5d27f-ebd0-4aa9-a91d-904067bd5249" />
 
 
--It’s best to use https even when using a VPN, because the VPN server decrypts the tunnel and if attackers gain unauthorized access to the server, the data can be seen in plain text.                       
+-It’s best to use HTTPS even when using a VPN, because the VPN server decrypts the tunnel, and if attackers gain unauthorized access to the server, the data can be seen in plain text.                       
+
+## Conclusion
+This attack demonstrates the risk of using insecure communication protocols, such as HTTP, which can expose sensitive data.
